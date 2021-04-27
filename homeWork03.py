@@ -4,7 +4,7 @@ count = 0
 
 try:
     with open('forHomeWork03.txt') as salary:
-        print('Оклад менее 20000 имеют следующие сотрудники:')
+        print('Оклад менее 20000 Пиастров имеют следующие сотрудники:')
         for line in salary.readlines():
             userSalary = float(line.split()[1])
             if userSalary < 20000:
